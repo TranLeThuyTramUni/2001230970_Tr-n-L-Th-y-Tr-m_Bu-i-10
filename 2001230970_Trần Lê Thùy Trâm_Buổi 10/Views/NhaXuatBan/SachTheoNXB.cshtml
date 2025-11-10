@@ -1,0 +1,34 @@
+﻿
+@{
+    ViewBag.Title = "SachTheoNXB";
+    Layout = "~/Views/Shared/_LayoutPageChung.cshtml";
+}
+
+@using _2001230970_Trần_Lê_Thùy_Trâm_Buổi_10.Models;
+@model List<Sach>
+<h2>SÁCH THEO NHÀ XUẤT BẢN</h2>
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-4">
+            <img src="@Url.Content("~/HinhAnhSP/" + item.AnhBia)" width="70%" height="70%" alt="Image" />
+
+            @if (item.TenSach.Length > 30)
+            {
+                <p>
+                    <strong title="@item.TenSach">Tiêu đề: @item.TenSach.Substring(0, 30)...</strong><br />
+                    <a href="~/Sach/XemChiTiet?ms=@item.MaSach">Xem chi tiết</a>
+                </p>
+            }
+            else
+            {
+                <p>
+                    <strong title="@item.TenSach">Tiêu đề: @item.TenSach</strong><br />
+                    <a href="~/Sach/XemChiTiet?ms=@item.MaSach">Xem chi tiết</a>
+                </p>
+                <div class="clear"></div>
+            }
+        </div>
+    }
+</div>
+<p>@ViewBag.TB</p>
