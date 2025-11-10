@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36623.8 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2001230970_Trần Lê Thùy Trâm_Buổi 10", "2001230970_Trần Lê Thùy Trâm_Buổi 10\2001230970_Trần Lê Thùy Trâm_Buổi 10.csproj", "{D5F16DC2-6664-4495-B59C-F38AC9A411CD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NhomAhoi_QLBanSach", "2001230970_Trần Lê Thùy Trâm_Buổi 10\NhomAhoi_QLBanSach.csproj", "{D5F16DC2-6664-4495-B59C-F38AC9A411CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +18,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F2D5450-39C0-456C-8560-E5287C218828}
 	EndGlobalSection
 EndGlobal

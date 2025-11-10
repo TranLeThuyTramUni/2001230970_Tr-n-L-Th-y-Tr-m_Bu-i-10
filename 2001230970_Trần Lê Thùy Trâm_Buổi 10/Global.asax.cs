@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace _2001230970_Trần_Lê_Thùy_Trâm_Buổi_10
+namespace NhomAhoi_QLBanSach
 {
     public class MvcApplication : System.Web.HttpApplication
     {

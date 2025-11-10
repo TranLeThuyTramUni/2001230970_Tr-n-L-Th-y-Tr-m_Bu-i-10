@@ -9,7 +9,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace _2001230970_Trần_Lê_Thùy_Trâm_Buổi_10.Models
+namespace NhomAhoi_QLBanSach.Models
 {
 	using System.Data.Linq;
 	using System.Data.Linq.Mapping;

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace _2001230970_Trần_Lê_Thùy_Trâm_Buổi_10.Controllers
+namespace NhomAhoi_QLBanSach.Controllers
 {
     public class HomeController : Controller
     {

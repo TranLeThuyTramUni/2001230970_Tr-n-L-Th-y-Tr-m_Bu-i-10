@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace _2001230970_Trần_Lê_Thùy_Trâm_Buổi_10.Models
+namespace NhomAhoi_QLBanSach.Models
 {
     public class GioHang
     {
